@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   z-index: 1000;
@@ -126,8 +126,12 @@ h5 {
   transition: 0.3s;
 }
 
+.hero-img {
+  margin-top: 10%;
+}
+
 .hero-img img {
-  width: 350px;
+  width: 300px;
   height: auto;
 }
 
@@ -149,4 +153,87 @@ h5 {
 .icons i:hover {
   color: #90B0C0;
   transform: translateY(-5px);
+}
+
+.hero-img i {
+  font-size: 30px;
+  background-color: #10445A;
+  box-shadow: 1px 1px 5px 10px #90B0C0;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.skills {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 400px;
+  background-color: #10445A;
+  padding: 5% 2%;
+  text-align: center;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.custom-shape-divider-bottom-1680822555 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1680822555 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+}
+
+.custom-shape-divider-bottom-1680822555 .shape-fill {
+  fill: #10445A;
+  border-top: #2ABCAE 2px solid;
+}
+
+.skills h2 {
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.skills h2 span {
+  font-family: "DM Sans", sans-serif;
+  color: #2ABCAE;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-left: 1%;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8%;
+}
+
+.img-box img {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.img-box .container h6 {
+  font-size: 15px;
+}
+
+.container {
+  background-color: #90B0C0;
+  width: 350px;
+  height: 350px;
+  padding-top: 20px;
+  border-radius: 20px;
+  font-family: "DM Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */
